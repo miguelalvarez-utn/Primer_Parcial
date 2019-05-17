@@ -1,0 +1,137 @@
+# depslib dependency file v1.0
+1557574024 source:c:\users\miguea11\desktop\carpeta_trabajo\examen_piloto\fantasma.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"fantasma.h"
+	"utn.h"
+
+1557571715 h"
+
+1557573934 c:\users\miguea11\desktop\carpeta_trabajo\examen_piloto\fantasma.h
+
+1557450012 c:\users\miguea11\desktop\carpeta_trabajo\examen_piloto\utn.h
+
+1557527968 source:c:\users\miguea11\desktop\carpeta_trabajo\examen_piloto\informes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"fantasma.h"
+	"utn.h"
+
+1557574101 source:c:\users\miguea11\desktop\carpeta_trabajo\examen_piloto\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"fantasma.h"
+
+1557571715 source:c:\users\miguea11\desktop\carpeta_trabajo\examen_piloto\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"fantasma.h"
+	"utn.h"
+
+1557574332 source:c:\users\miguea11\desktop\carpeta_trabajo\molde_abm\fantasma.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"fantasma.h"
+	"utn.h"
+
+1557783426 c:\users\miguea11\desktop\carpeta_trabajo\molde_abm\fantasma.h
+
+1557792979 c:\users\miguea11\desktop\carpeta_trabajo\molde_abm\utn.h
+
+1557527968 source:c:\users\miguea11\desktop\carpeta_trabajo\molde_abm\informes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"fantasma.h"
+	"utn.h"
+
+1557574985 source:c:\users\miguea11\desktop\carpeta_trabajo\molde_abm\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"fantasma.h"
+
+1557571715 source:c:\users\miguea11\desktop\carpeta_trabajo\molde_abm\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"fantasma.h"
+	"utn.h"
+
+1558047974 source:/home/alumno/Escritorio/Miguel_Alvarez_1H/fantasma.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"fantasma.h"
+	"utn.h"
+
+1558043878 /home/alumno/Escritorio/Miguel_Alvarez_1H/fantasma.h
+
+1557882140 /home/alumno/Escritorio/Miguel_Alvarez_1H/utn.h
+
+1557882140 source:/home/alumno/Escritorio/Miguel_Alvarez_1H/informes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"fantasma.h"
+	"utn.h"
+
+1558052217 source:/home/alumno/Escritorio/Miguel_Alvarez_1H/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"Orquesta.h"
+	"Musico.h"
+	"Instrumento.h"
+
+1557882140 source:/home/alumno/Escritorio/Miguel_Alvarez_1H/utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"fantasma.h"
+	"utn.h"
+
+1558052626 source:/home/alumno/Escritorio/Miguel_Alvarez_1H/Orquesta.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Orquesta.h"
+	"utn.h"
+
+1558044988 /home/alumno/Escritorio/Miguel_Alvarez_1H/Orquesta.h
+
+1558051995 /home/alumno/Escritorio/Miguel_Alvarez_1H/Musico.h
+	"Orquesta.h"
+	"Instrumento.h"
+
+1558052626 source:/home/alumno/Escritorio/Miguel_Alvarez_1H/Musico.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Musico.h"
+	"Orquesta.h"
+	"utn.h"
+
+1558052626 source:/home/alumno/Escritorio/Miguel_Alvarez_1H/Instrumento.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Instrumento.h"
+	"utn.h"
+
+1558050488 /home/alumno/Escritorio/Miguel_Alvarez_1H/Instrumento.h
+
