@@ -30,7 +30,7 @@ int musico_buscarString(Musico array[], int size, char* valorBuscado, int* indic
 int musico_alta(Musico array[], Orquesta arrayB[],Instrumento arrayC[],int size, int sizeB,int sizeC,int* contadorID) ;                        //cambiar musico
 int musico_baja(Musico array[], int sizeArray);                                      //cambiar musico
 int musico_bajaValorRepetidoInt(Musico array[], int sizeArray, int valorBuscado);
-int musico_modificar(Musico array[], int sizeArray);                                //cambiar musico
+int musico_modificar(Musico array[],Orquesta arrayB[],int sizeArray,int sizeB)   ;                               //cambiar musico
 int musico_ordenarPorDobleCriterio(Musico array[],int size, int orderFirst, int orderSecond);                                  //cambiar musico
 int musico_listar(Musico array[], int size);                      //cambiar musico
 void musico_mock(Musico arrayMusico[], int size,int *contadorId);                      //cambiar musico

@@ -339,7 +339,7 @@ int orquesta_listar(Orquesta array[], int size)                      //cambiar o
             else
             {
                 printf("\n---------------------------------------\n");
-                printf("\n ID: %d\n tipo: %d\nnombre: %s\n lugar: %s",
+                printf("\n ID: %d\nTipo de Orquesta: %d\nNombre: %s\nLugar: %s",
                        array[i].idUnico,
                        array[i].tipo,
                        array[i].nombre,

@@ -87,7 +87,7 @@
 	"fantasma.h"
 	"utn.h"
 
-1558052217 source:/home/alumno/Escritorio/Miguel_Alvarez_1H/main.c
+1558053349 source:/home/alumno/Escritorio/Miguel_Alvarez_1H/main.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -105,7 +105,7 @@
 	"fantasma.h"
 	"utn.h"
 
-1558052626 source:/home/alumno/Escritorio/Miguel_Alvarez_1H/Orquesta.c
+1558052973 source:/home/alumno/Escritorio/Miguel_Alvarez_1H/Orquesta.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -114,7 +114,7 @@
 
 1558044988 /home/alumno/Escritorio/Miguel_Alvarez_1H/Orquesta.h
 
-1558051995 /home/alumno/Escritorio/Miguel_Alvarez_1H/Musico.h
+1558053323 /home/alumno/Escritorio/Miguel_Alvarez_1H/Musico.h
 	"Orquesta.h"
 	"Instrumento.h"
 
@@ -126,7 +126,7 @@
 	"Orquesta.h"
 	"utn.h"
 
-1558052626 source:/home/alumno/Escritorio/Miguel_Alvarez_1H/Instrumento.c
+1558053056 source:/home/alumno/Escritorio/Miguel_Alvarez_1H/Instrumento.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>

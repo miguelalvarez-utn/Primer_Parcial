@@ -4,7 +4,6 @@
 #include "Instrumento.h"
 #include "utn.h" //cambiar por nombre entidad
 
-
 /** \brief  To indicate that all position in the array are empty,
 *          this function put the flag (isEmpty) in TRUE in all
 *          position of the array
@@ -267,8 +266,6 @@ int instrumento_bajaValorRepetidoInt(Instrumento array[], int sizeArray, int val
     return retorno;
 }
 
-
-
 //*****************************************
 //Modificar
 /** \brief Busca un elemento por ID y modifica sus campos
@@ -344,7 +341,7 @@ int instrumento_listar(Instrumento array[], int size)                      //cam
             else
             {
                 printf("\n---------------------------------------\n");
-                printf("\n ID: %d\n tipo: %d\n nombre: %s\n",
+                printf("\nID: %d\ntipo Instrumento: %d\nnombre: %s\n",
                        array[i].idUnico,
                        array[i].tipo,
                        array[i].nombre);

@@ -74,7 +74,7 @@ int main()
                             break;
                         case 3:
                             musico_listar(arrayMusico,QTY_ARRAY_TIPO);
-                            musico_modificar(arrayMusico,QTY_ARRAY_TIPO);
+                            musico_modificar(arrayMusico,arrayOrquesta,QTY_ARRAY_TIPO,QTY_ARRAY_TIPO);
                             break;
                         case 4:
                             musico_listar(arrayMusico,QTY_ARRAY_TIPO);

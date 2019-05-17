@@ -279,11 +279,12 @@ int musico_bajaValorRepetidoInt(Musico array[], int sizeArray, int valorBuscado)
 * \return int Return (-1) si Error [largo no valido o NULL pointer o no encuentra elementos con el valor buscado] - (0) si se modifica el elemento exitosamente
 *
 */
-int musico_modificar(Musico array[], int sizeArray)                                //cambiar musico
+int musico_modificar(Musico array[],Orquesta arrayB[],int sizeArray,int sizeB)                                //cambiar musico
 {
     int retorno=-1;
     int posicion;
-    int id;                                                                                         //cambiar si no se busca por ID
+    int id;
+    int auxId;                                                                                       //cambiar si no se busca por ID
     int opcion;
     if(array!=NULL && sizeArray>0)
     {
@@ -309,7 +310,17 @@ int musico_modificar(Musico array[], int sizeArray)                             
                     case 3:
                         utn_getName("Apellido: ","\nError\n",1,TEXT_SIZE,1,array[posicion].apellido);                      //mensaje + cambiar campo nombre
                         break;
+                    case 4:
+                        utn_getUnsignedInt("Edad: ","\nError\n",1,sizeof(int),1,10,1,&auxId);
+                        if(orquesta_buscarID(arrayB,sizeB,auxId,&posicion))
+                        {
+                            printf("ID No existe");
+                            break;
+                        }
+                        array[posicion].idOrquesta = auxId;
+
                     default:
+
                         printf("\nOpcion no valida\n");
                 }
             }while(opcion!=4);
@@ -465,7 +476,8 @@ void MenuMusicoModificacion()
     printf("1 - Nueva edad\n");
     printf("2 - Nuevo nombre\n");
     printf("3 - Nuevo apellido\n");
-    printf("4 - SALIR\n");
+    printf("4 - Nueva tipo Orquesta\n");
+    printf("5 - SALIR\n");
     printf("Elija opcion: ");
 }
 
