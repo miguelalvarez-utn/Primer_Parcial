@@ -7,28 +7,30 @@
 #include "Orquesta.h"
 #include "Musico.h"
 #include "Instrumento.h"
-#define QTY_ARRAY_TIPO 10
+#define ORQUESTA_MAX 50
+#define INSTRUMENTOS_MAX 20
+#define MUSICOS_MAX 1000
 //--------------------------
 int main()
 {
     int opcion;
     int opcion1;
     int contadorIdorquesta=0;
-    Orquesta arrayOrquesta[QTY_ARRAY_TIPO];
-    orquesta_Inicializar(arrayOrquesta,QTY_ARRAY_TIPO);
-    orquesta_mock(arrayOrquesta, QTY_ARRAY_TIPO, &contadorIdorquesta) ;
+    Orquesta arrayOrquesta[ORQUESTA_MAX];
+    orquesta_Inicializar(arrayOrquesta,ORQUESTA_MAX);
+    orquesta_mock(arrayOrquesta, ORQUESTA_MAX, &contadorIdorquesta) ;
     ////////-------------------------------------------------------------
     int opcion2;
     int contadorIdmusico=0;
-    Musico arrayMusico[QTY_ARRAY_TIPO];
-    musico_Inicializar(arrayMusico,QTY_ARRAY_TIPO);
-    musico_mock(arrayMusico, QTY_ARRAY_TIPO, &contadorIdmusico) ;
+    Musico arrayMusico[MUSICOS_MAX];
+    musico_Inicializar(arrayMusico,MUSICOS_MAX);
+    musico_mock(arrayMusico, MUSICOS_MAX, &contadorIdmusico) ;
     //---------------------------------------------------------------
     int opcion3;
     int contadorIdinstrumento=0;
-    Instrumento arrayInstrumento[QTY_ARRAY_TIPO];
-    instrumento_Inicializar(arrayInstrumento,QTY_ARRAY_TIPO);
-    instrumento_mock(arrayInstrumento, QTY_ARRAY_TIPO, &contadorIdinstrumento) ;
+    Instrumento arrayInstrumento[INSTRUMENTOS_MAX];
+    instrumento_Inicializar(arrayInstrumento,INSTRUMENTOS_MAX);
+    instrumento_mock(arrayInstrumento, INSTRUMENTOS_MAX, &contadorIdinstrumento) ;
 
     do
     {
@@ -45,14 +47,14 @@ int main()
                     switch(opcion1)
                     {
                         case 1:
-                            orquesta_alta(arrayOrquesta,QTY_ARRAY_TIPO,&contadorIdorquesta);
+                            orquesta_alta(arrayOrquesta,ORQUESTA_MAX,&contadorIdorquesta);
                             break;
                         case 2:
-                            orquesta_listar(arrayOrquesta,QTY_ARRAY_TIPO);
-                            orquesta_baja(arrayOrquesta,QTY_ARRAY_TIPO);
+                            orquesta_listar(arrayOrquesta,ORQUESTA_MAX);
+                            orquesta_baja(arrayOrquesta,ORQUESTA_MAX);
                             break;
                         case 3:
-                            orquesta_listar(arrayOrquesta,QTY_ARRAY_TIPO);
+                            orquesta_listar(arrayOrquesta,ORQUESTA_MAX);
                             break;
                     }
                 }while(opcion1 != 4);
@@ -66,18 +68,18 @@ int main()
                     switch(opcion2)
                     {
                         case 1:
-                            musico_alta(arrayMusico,arrayOrquesta,arrayInstrumento,QTY_ARRAY_TIPO,QTY_ARRAY_TIPO,QTY_ARRAY_TIPO,&contadorIdmusico);
+                            musico_alta(arrayMusico,arrayOrquesta,arrayInstrumento,MUSICOS_MAX,ORQUESTA_MAX,INSTRUMENTOS_MAX,&contadorIdmusico);
                             break;
                         case 2:
-                            musico_listar(arrayMusico,QTY_ARRAY_TIPO);
-                            musico_baja(arrayMusico,QTY_ARRAY_TIPO);
+                            musico_listar(arrayMusico,MUSICOS_MAX);
+                            musico_baja(arrayMusico,MUSICOS_MAX);
                             break;
                         case 3:
-                            musico_listar(arrayMusico,QTY_ARRAY_TIPO);
-                            musico_modificar(arrayMusico,arrayOrquesta,QTY_ARRAY_TIPO,QTY_ARRAY_TIPO);
+                            musico_listar(arrayMusico,MUSICOS_MAX);
+                            musico_modificar(arrayMusico,arrayOrquesta,MUSICOS_MAX,ORQUESTA_MAX);
                             break;
                         case 4:
-                            musico_listar(arrayMusico,QTY_ARRAY_TIPO);
+                            musico_listar(arrayMusico,MUSICOS_MAX);
                             break;
                     }
                 }while(opcion2 != 5);
@@ -91,10 +93,10 @@ int main()
                     switch(opcion3)
                     {
                         case 1:
-                            instrumento_alta(arrayInstrumento,QTY_ARRAY_TIPO,&contadorIdinstrumento);
+                            instrumento_alta(arrayInstrumento,INSTRUMENTOS_MAX,&contadorIdinstrumento);
                             break;
                         case 2:
-                            instrumento_listar(arrayInstrumento,QTY_ARRAY_TIPO);
+                            instrumento_listar(arrayInstrumento,INSTRUMENTOS_MAX);
                             break;
 
                     }

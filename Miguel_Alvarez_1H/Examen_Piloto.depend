@@ -87,7 +87,7 @@
 	"fantasma.h"
 	"utn.h"
 
-1558053349 source:/home/alumno/Escritorio/Miguel_Alvarez_1H/main.c
+1558054820 source:/home/alumno/Escritorio/Miguel_Alvarez_1H/main.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -114,11 +114,11 @@
 
 1558044988 /home/alumno/Escritorio/Miguel_Alvarez_1H/Orquesta.h
 
-1558053323 /home/alumno/Escritorio/Miguel_Alvarez_1H/Musico.h
+1558054500 /home/alumno/Escritorio/Miguel_Alvarez_1H/Musico.h
 	"Orquesta.h"
 	"Instrumento.h"
 
-1558052626 source:/home/alumno/Escritorio/Miguel_Alvarez_1H/Musico.c
+1558054529 source:/home/alumno/Escritorio/Miguel_Alvarez_1H/Musico.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>

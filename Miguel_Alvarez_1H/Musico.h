@@ -17,6 +17,7 @@ typedef struct
     int edad;
     int idOrquesta;
     int idInstrumento;
+    char instrumento[50];
 }Musico;
 
 
